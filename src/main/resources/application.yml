@@ -1,0 +1,10 @@
+server:
+  port: 8015
+mybatis:
+  mapper-locations: classpath*:com/nemo/shading/mapping/*.xml
+  type-aliases-package: com.nemo
+logging:
+  level:
+    com.nemo: DEBUG
+  file: ./logs/sharding.log
+  root: DEBUG

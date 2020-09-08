@@ -26,6 +26,7 @@ hs_err_pid*
 #Jrebel Files
 rebel.xml
 .rebel.xml.bak
+rebel-remote.xml
 
 */.gitignore
 
@@ -47,3 +48,5 @@ out/
 
 **/.DS_Store
 /temp/
+
+.mvn/**
